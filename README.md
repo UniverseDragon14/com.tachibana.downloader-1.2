@@ -1,118 +1,57 @@
-[![Releases](https://img.shields.io/github/downloads/TachibanaGeneralLaboratories/download-navi/total.svg)](https://github.com/TachibanaGeneralLaboratories/download-navi/releases)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/download-navi/localized.svg)](https://crowdin.com/project/download-navi)
-[![Chat - Telegram](https://img.shields.io/badge/chat-Telegram-blue.svg)](https://t.me/DownloadNavi)
-[<img alt="Coverity Scan Build Status" src="https://scan.coverity.com/projects/20752/badge.svg">](https://scan.coverity.com/projects/download-navi)
-
-Download Navi
-=====================
+# Download Navi
 
 ![Download Navi](fastlane/metadata/android/en-US/images/featureGraphic.png)
 
-Downloads
----
-[<img alt="Get it on Google Play" height="80" src="https://tachibanagenerallaboratories.github.io/images/badges/Google%20Play/google-play-badge.png">](https://play.google.com/store/apps/details?id=com.tachibana.downloader)
-[<img alt="Get it on F-Droid" height="80" src="https://tachibanagenerallaboratories.github.io/images/badges/F-Droid/get-it-on.png">](https://f-droid.org/en/packages/com.tachibana.downloader/)
-[<img alt="Get it on GitHub" height="80" src="https://tachibanagenerallaboratories.github.io/images/badges/GitHub/get-it-on-github.png">](https://github.com/TachibanaGeneralLaboratories/download-navi/releases)
-[<img alt="Get it on Android File Host" height="80" src="https://tachibanagenerallaboratories.github.io/images/badges/Android%20File%20Host/android-file-host-badge.png">](https://www.androidfilehost.com/?w=files&flid=292947)
-[<img alt="Get it on XDA Labs" height="80" src="https://tachibanagenerallaboratories.github.io/images/badges/XDA%20Labs/xda-labs-badge.png">](https://labs.xda-developers.com/store/app/com.tachibana.downloader)
-[<img alt="Get it on Coolapk" height="80" src="https://tachibanagenerallaboratories.github.io/images/badges/Coolapk/coolapk.png">](https://coolapk.com/apk/com.tachibana.downloader)
-[<img alt="Direct APK Download" height="80" src="https://tachibanagenerallaboratories.github.io/images/badges/Direct%20Download/direct-apk-download.png">](https://proninyaroslav.ru/ftp/download_navi/)
+## Overview
 
-Download Navi is a free and Open Source download manager for Android 4.4+.
+`com.tachibana.downloader-1.2` is an Android download manager project based on **Download Navi**, a free and open-source download application.
 
-Features
----
+This repository contains the Android application source focused on reliable file downloading, background operations, and user-friendly download management.
 
- - Free and Open Source software (FOSS)
- - Material Design
- - Multiple themes (Light, Dark, Black)
- - Android TV support
- - Chrome OS support
- - Pause and resume downloads
- - Browsers support
- - Simultaneous downloads (default 3)
- - Multi part downloading (max 16)
- - Download files in background
- - Unmetered connections only support (ex. Wi-Fi)
- - Roaming controls
- - User agent controls
- - Calculate hash value (MD5 & SHA-256)
- - Power Management and battery control
- - Various automatic actions after finishing download
+## Features
 
-Donation
----
+- Open-source Android download manager
+- Pause and resume downloads
+- Multiple simultaneous downloads
+- Multi-part downloading support
+- Background download handling
+- Theme support (Light, Dark, Black)
+- Browser integration support
+- Hash verification (MD5 / SHA-256)
+- Android TV and Chrome OS support
 
-If you like Download Navi you can support developer with these methods. If you have problems with payment or you want to donate in another way, contact me: `proninyaroslav@mail.ru`. Thank you!
+## Technology
 
- - **PayPal**: [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=G62LXDZPCPFEU)
- - **Yandex Money**: `410011738561939`
- - **Amazon.com eGift Cards**: just choose your amount and type e-mail `proninyaroslav@mail.ru`
-in the gift card details https://smile.amazon.com/gp/product/B004LLIKVU/
- - **Liberapay**: [![liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/proninyaroslav/donate)
- - **Bitcoin**: `1Af9DgxtWvVp6bFiYQw2MeWtRzTXshRYpB`
+- Platform: Android
+- Language: Java/Kotlin based Android development
+- Build system: Gradle
+- License: GPLv3
 
-Translations
----
+## Repository Purpose
 
-You can help translate the app here: [https://crowdin.com/project/download-navi](https://crowdin.com/project/download-navi)
+This repository is maintained as part of the Universal Dragon Aslam GitHub workspace for learning, research, and software engineering organization.
 
- - **Arabic** *(thanks rex07)*
- - **Azerbaijani** *(thanks Khan27)*
- - **Bengali** *(thanks Oymate)*
- - **Brazilian Portuguese** *(thanks lu.santi.oli)*
- - **Chinese Simplified** *(thanks OR120, dwughjsd)*
- - **Chinese Traditional** *(thanks Fei1Yang)*
- - **Czech** *(thanks novas78)*
- - **English**
- - **French** *(thanks Ilith, KaKi87)*
- - **German** *(thanks noc-jfcbs, soristre)*
- - **Hindi** *(thanks imcmjha)*
- - **Indonesian** *(thanks bzntm)*
- - **Italian** *(thanks alisseo)*
- - **Japanese** *(thanks konnyaku2mc)*
- - **Russian**
- - **Serbian** *(thanks Aimbot91)*
- - **Slovak** *(thanks kubalav)*
- - **Spanish** *(thanks c-sanchez)*
- - **Turkish** *(thanks byzlo685, muhaaliss)*
- - **Vietnamese** *(thanks pnhpnh)*
+The project is reviewed for:
 
-Contributors
----
+- Android development practice
+- Open-source software understanding
+- Build system learning
+- Code organization and documentation improvement
 
-#### Developers
+## Development
 
-* [Yaroslav Pronin](https://github.com/proninyaroslav)
+Clone the repository and open it with Android Studio.
 
-#### Logo
+```bash
+git clone https://github.com/UniverseDragon14/com.tachibana.downloader-1.2.git
+```
 
-* [Patryk Goworowski](https://github.com/Gowsky)
+Build the project using the Android Gradle tools.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+## Original Project
 
-Screenshots
----
-
-![phone](/art/screenshots/phone.png) ![phone dark](/art/screenshots/phone_dark.png) ![tablet](/art/screenshots/tablet.png)
-
-Privacy
----
-Please see our [privacy policy](Privacy.md).
+Original Download Navi project and credits belong to the original developers and contributors.
 
 ## License
-[![Large GPLv3 logo with “Free as in Freedom”](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)](http://www.gnu.org/licenses/gpl-3.0.en.html)
 
-    Copyright (C) 2018, 2019 Tachibana General Laboratories, LLC
-    Copyright (C) 2018, 2019 Yaroslav Pronin <proninyaroslav@mail.ru>
-    This file is part of Download Navi.
-    Download Navi is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+GPLv3. See the license file in this repository for details.
